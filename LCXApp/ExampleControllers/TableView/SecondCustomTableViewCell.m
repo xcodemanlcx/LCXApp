@@ -8,10 +8,12 @@
 
 #import "SecondCustomTableViewCell.h"
 #import "LCXUIInit+ImageView.h"
+#import "LCXUIInit+image.h"
+
 @implementation SecondCustomTableViewCell
 
 - (void)initCellView{
-    AddImageView(self.contentView, CGRectMake(10, 10, 100, 50), [UIImage imageNamed:@"image"]);
+    AddImageView(self.contentView, CGRectMake(10, 10, 100, 50),imageNamed(@"image"));
 }
 
 - (void)awakeFromNib {

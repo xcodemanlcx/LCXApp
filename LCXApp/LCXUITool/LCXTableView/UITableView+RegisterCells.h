@@ -1,5 +1,5 @@
 //
-//  UITableView+RegisterCells.h
+//  UITableView+LCXRegisterCells.h
 //  TableView
 //
 //  Created by leichunxiang on 2019/10/28.
@@ -10,11 +10,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UITableView (RegisterCells)
+@interface UITableView (LCXRegisterCells)
 
-@property (nonatomic, strong,readonly) NSMutableArray <NSString *> *cellReuseIdentifiers;
+@property (nonatomic, strong, readonly) NSMutableArray <NSString *> *cellReuseIdentifiers;
 
-- (void)registerCellClasses:(NSArray <Class> *)classes forCellReuseIdentifiers:(NSArray <NSString *> *)cellReuseIdentifiers;
+- (void)registerCellClasses:(NSArray <Class> *)classes;
 
 @end
 

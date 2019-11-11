@@ -19,16 +19,17 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     LCXSuperListViewModel *model = _dataArr[indexPath.row];
-    NSString *cellID = _cellIDArr[model.celllReuseIDIndex];
-    LCXSuperTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
+    LCXSuperTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:tableView.cellReuseIdentifiers[model.celllReuseIDIndex]];
     cell.cellModel = _dataArr[indexPath.row];
-    if (self.delegatesCellActionBlock&&!cell.cellActionBlock) {
+    if (_delegatesCellActionBlock&&!cell.cellActionBlock) {
         __weak typeof(self) weakSelf = self;
         __weak typeof(cell) weakCell = cell;
         cell.cellActionBlock = ^(NSUInteger cellActionIndex) {
-            NSIndexPath *selectedIndexPath = [tableView indexPathForCell:weakCell];
-            [weakSelf tableView:tableView selectedIndexPath:selectedIndexPath cellActionIndex:cellActionIndex];
-            NSLog(@"cell == %ld ,action index == %ld",selectedIndexPath.row,cellActionIndex);
+            __strong typeof (weakSelf) strongSelf = weakSelf;
+            if (strongSelf.delegatesCellActionBlock) {
+                strongSelf.delegatesCellActionBlock(tableView, weakCell, cellActionIndex);
+            }
+            NSLog(@"cell row == %ld ,cell action index == %ld",[tableView indexPathForCell:weakCell].row,cellActionIndex);
         };
     }
     return cell;
@@ -42,27 +43,9 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    
-}
-
-#pragma mark - cell Action
-
-- (void)tableView:(UITableView *)tableView selectedIndexPath:(NSIndexPath *)selectedIndexPath cellActionIndex:(NSUInteger)cellActionIndex{
-    if (self.delegatesCellActionBlock) {
-        self.delegatesCellActionBlock(tableView, selectedIndexPath, cellActionIndex);
+    if (_delegatesDidSelectBlock) {
+        _delegatesDidSelectBlock(tableView,indexPath);
     }
 }
 
-#pragma mark - cell reuseID
-
-- (void)setCellClassArr:(NSArray<Class> *)cellClassArr{
-    if(cellClassArr.count==0) return;
-    _cellIDArr = @[].mutableCopy;
-    for (NSUInteger i = 0; i < cellClassArr.count; i++) {
-        Class cellClass = cellClassArr[i];
-        NSString * cellID = [NSStringFromClass(cellClass) stringByAppendingString:@"_CellID"];
-        [_cellIDArr addObject:cellID];
-    }
-    _cellClassArr = cellClassArr;
-}
 @end

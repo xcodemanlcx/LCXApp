@@ -16,6 +16,23 @@
 		3624562D2371CFFA0001C235 /* LCXAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3624562C2371CFFA0001C235 /* LCXAppTests.m */; };
 		362456382371CFFA0001C235 /* LCXAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 362456372371CFFA0001C235 /* LCXAppUITests.m */; };
 		36C341D72371D08900E3D2AB /* LCXUIInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C341D62371D08900E3D2AB /* LCXUIInit.m */; };
+		36C341E92371DBF500E3D2AB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C341DF2371DBF500E3D2AB /* BaseViewController.m */; };
+		36C341EF2371DC1E00E3D2AB /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C341EE2371DC1E00E3D2AB /* TableViewController.m */; };
+		36C341F22371DC7B00E3D2AB /* ViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C341F12371DC7B00E3D2AB /* ViewViewController.m */; };
+		36CE963723781AE70089E264 /* LCXTableViewDelegates.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE963523781AE70089E264 /* LCXTableViewDelegates.m */; };
+		36CE963A23781AF10089E264 /* LCXSuperListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE963923781AF10089E264 /* LCXSuperListViewModel.m */; };
+		36CE9643237869650089E264 /* LCXTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE9642237869650089E264 /* LCXTableViewController.m */; };
+		36CE964623786A8D0089E264 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE964523786A8D0089E264 /* CustomTableViewCell.m */; };
+		36F5155A2379906800C3795E /* SecondCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F515592379906800C3795E /* SecondCustomTableViewCell.m */; };
+		36F515612379978100C3795E /* LCXUIInit+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F515602379978100C3795E /* LCXUIInit+image.m */; };
+		36F53C89237505FA004CFEE5 /* LCXUIInit+ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F53C88237505FA004CFEE5 /* LCXUIInit+ImageView.m */; };
+		36F53C8C23750871004CFEE5 /* LCXUIInit+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F53C8B23750871004CFEE5 /* LCXUIInit+View.m */; };
+		36F53C8F237508F5004CFEE5 /* LCXUIInit+Label.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F53C8E237508F5004CFEE5 /* LCXUIInit+Label.m */; };
+		36F53C92237513F9004CFEE5 /* LCXUIInit+Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F53C91237513F9004CFEE5 /* LCXUIInit+Button.m */; };
+		36F53C9523751C2B004CFEE5 /* LCXUIInit+TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F53C9423751C2B004CFEE5 /* LCXUIInit+TableView.m */; };
+		36F53C9A2375A654004CFEE5 /* LCXSuperTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F53C982375A654004CFEE5 /* LCXSuperTableViewCell.m */; };
+		36F53C9E2375A731004CFEE5 /* UITableView+RegisterCells.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F53C9D2375A731004CFEE5 /* UITableView+RegisterCells.m */; };
+		36F53CAD2375BFB3004CFEE5 /* LCXSuperTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F53CAC2375BFB3004CFEE5 /* LCXSuperTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +71,40 @@
 		362456392371CFFA0001C235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36C341D52371D08900E3D2AB /* LCXUIInit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCXUIInit.h; sourceTree = "<group>"; };
 		36C341D62371D08900E3D2AB /* LCXUIInit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCXUIInit.m; sourceTree = "<group>"; };
+		36C341DF2371DBF500E3D2AB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		36C341E52371DBF500E3D2AB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		36C341ED2371DC1E00E3D2AB /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		36C341EE2371DC1E00E3D2AB /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		36C341F02371DC7B00E3D2AB /* ViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewViewController.h; sourceTree = "<group>"; };
+		36C341F12371DC7B00E3D2AB /* ViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewViewController.m; sourceTree = "<group>"; };
+		36CE963523781AE70089E264 /* LCXTableViewDelegates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCXTableViewDelegates.m; sourceTree = "<group>"; };
+		36CE963623781AE70089E264 /* LCXTableViewDelegates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCXTableViewDelegates.h; sourceTree = "<group>"; };
+		36CE963823781AF10089E264 /* LCXSuperListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCXSuperListViewModel.h; sourceTree = "<group>"; };
+		36CE963923781AF10089E264 /* LCXSuperListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCXSuperListViewModel.m; sourceTree = "<group>"; };
+		36CE9641237869650089E264 /* LCXTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCXTableViewController.h; sourceTree = "<group>"; };
+		36CE9642237869650089E264 /* LCXTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCXTableViewController.m; sourceTree = "<group>"; };
+		36CE964423786A8D0089E264 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		36CE964523786A8D0089E264 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		36F515582379906800C3795E /* SecondCustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondCustomTableViewCell.h; sourceTree = "<group>"; };
+		36F515592379906800C3795E /* SecondCustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondCustomTableViewCell.m; sourceTree = "<group>"; };
+		36F5155F2379978100C3795E /* LCXUIInit+image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LCXUIInit+image.h"; sourceTree = "<group>"; };
+		36F515602379978100C3795E /* LCXUIInit+image.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LCXUIInit+image.m"; sourceTree = "<group>"; };
+		36F53C87237505FA004CFEE5 /* LCXUIInit+ImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LCXUIInit+ImageView.h"; sourceTree = "<group>"; };
+		36F53C88237505FA004CFEE5 /* LCXUIInit+ImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LCXUIInit+ImageView.m"; sourceTree = "<group>"; };
+		36F53C8A23750871004CFEE5 /* LCXUIInit+View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LCXUIInit+View.h"; sourceTree = "<group>"; };
+		36F53C8B23750871004CFEE5 /* LCXUIInit+View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LCXUIInit+View.m"; sourceTree = "<group>"; };
+		36F53C8D237508F5004CFEE5 /* LCXUIInit+Label.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LCXUIInit+Label.h"; sourceTree = "<group>"; };
+		36F53C8E237508F5004CFEE5 /* LCXUIInit+Label.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LCXUIInit+Label.m"; sourceTree = "<group>"; };
+		36F53C90237513F9004CFEE5 /* LCXUIInit+Button.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LCXUIInit+Button.h"; sourceTree = "<group>"; };
+		36F53C91237513F9004CFEE5 /* LCXUIInit+Button.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LCXUIInit+Button.m"; sourceTree = "<group>"; };
+		36F53C9323751C2B004CFEE5 /* LCXUIInit+TableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LCXUIInit+TableView.h"; sourceTree = "<group>"; };
+		36F53C9423751C2B004CFEE5 /* LCXUIInit+TableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LCXUIInit+TableView.m"; sourceTree = "<group>"; };
+		36F53C982375A654004CFEE5 /* LCXSuperTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCXSuperTableViewCell.m; sourceTree = "<group>"; };
+		36F53C9B2375A661004CFEE5 /* LCXSuperTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCXSuperTableViewCell.h; sourceTree = "<group>"; };
+		36F53C9C2375A731004CFEE5 /* UITableView+RegisterCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+RegisterCells.h"; sourceTree = "<group>"; };
+		36F53C9D2375A731004CFEE5 /* UITableView+RegisterCells.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+RegisterCells.m"; sourceTree = "<group>"; };
+		36F53CAB2375BFB3004CFEE5 /* LCXSuperTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCXSuperTableViewController.h; sourceTree = "<group>"; };
+		36F53CAC2375BFB3004CFEE5 /* LCXSuperTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCXSuperTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +159,9 @@
 				362456142371CFF90001C235 /* AppDelegate.m */,
 				362456162371CFF90001C235 /* ViewController.h */,
 				362456172371CFF90001C235 /* ViewController.m */,
+				36C341DA2371DBF500E3D2AB /* ExampleControllers */,
 				36C341D42371D05C00E3D2AB /* LCXUIInit */,
+				36F53C962375A5E5004CFEE5 /* LCXUITool */,
 				362456192371CFF90001C235 /* Main.storyboard */,
 				3624561C2371CFFA0001C235 /* Assets.xcassets */,
 				3624561E2371CFFA0001C235 /* LaunchScreen.storyboard */,
@@ -141,8 +194,80 @@
 			children = (
 				36C341D52371D08900E3D2AB /* LCXUIInit.h */,
 				36C341D62371D08900E3D2AB /* LCXUIInit.m */,
+				36F53C8A23750871004CFEE5 /* LCXUIInit+View.h */,
+				36F53C8B23750871004CFEE5 /* LCXUIInit+View.m */,
+				36F53C87237505FA004CFEE5 /* LCXUIInit+ImageView.h */,
+				36F53C88237505FA004CFEE5 /* LCXUIInit+ImageView.m */,
+				36F5155F2379978100C3795E /* LCXUIInit+image.h */,
+				36F515602379978100C3795E /* LCXUIInit+image.m */,
+				36F53C8D237508F5004CFEE5 /* LCXUIInit+Label.h */,
+				36F53C8E237508F5004CFEE5 /* LCXUIInit+Label.m */,
+				36F53C90237513F9004CFEE5 /* LCXUIInit+Button.h */,
+				36F53C91237513F9004CFEE5 /* LCXUIInit+Button.m */,
+				36F53C9323751C2B004CFEE5 /* LCXUIInit+TableView.h */,
+				36F53C9423751C2B004CFEE5 /* LCXUIInit+TableView.m */,
 			);
 			path = LCXUIInit;
+			sourceTree = "<group>";
+		};
+		36C341DA2371DBF500E3D2AB /* ExampleControllers */ = {
+			isa = PBXGroup;
+			children = (
+				36C341ED2371DC1E00E3D2AB /* TableViewController.h */,
+				36C341EE2371DC1E00E3D2AB /* TableViewController.m */,
+				36C341E52371DBF500E3D2AB /* BaseViewController.h */,
+				36C341DF2371DBF500E3D2AB /* BaseViewController.m */,
+				36C341F02371DC7B00E3D2AB /* ViewViewController.h */,
+				36C341F12371DC7B00E3D2AB /* ViewViewController.m */,
+				36F5155B237991D600C3795E /* TableView */,
+			);
+			path = ExampleControllers;
+			sourceTree = "<group>";
+		};
+		36CE963423781ABF0089E264 /* LCXTableViewDataSourceAndDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				36CE963623781AE70089E264 /* LCXTableViewDelegates.h */,
+				36CE963523781AE70089E264 /* LCXTableViewDelegates.m */,
+				36CE963823781AF10089E264 /* LCXSuperListViewModel.h */,
+				36CE963923781AF10089E264 /* LCXSuperListViewModel.m */,
+			);
+			path = LCXTableViewDataSourceAndDelegate;
+			sourceTree = "<group>";
+		};
+		36F5155B237991D600C3795E /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				36CE9641237869650089E264 /* LCXTableViewController.h */,
+				36CE9642237869650089E264 /* LCXTableViewController.m */,
+				36CE964423786A8D0089E264 /* CustomTableViewCell.h */,
+				36CE964523786A8D0089E264 /* CustomTableViewCell.m */,
+				36F515582379906800C3795E /* SecondCustomTableViewCell.h */,
+				36F515592379906800C3795E /* SecondCustomTableViewCell.m */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		36F53C962375A5E5004CFEE5 /* LCXUITool */ = {
+			isa = PBXGroup;
+			children = (
+				36F53C972375A603004CFEE5 /* LCXTableView */,
+			);
+			path = LCXUITool;
+			sourceTree = "<group>";
+		};
+		36F53C972375A603004CFEE5 /* LCXTableView */ = {
+			isa = PBXGroup;
+			children = (
+				36F53CAB2375BFB3004CFEE5 /* LCXSuperTableViewController.h */,
+				36F53CAC2375BFB3004CFEE5 /* LCXSuperTableViewController.m */,
+				36F53C9B2375A661004CFEE5 /* LCXSuperTableViewCell.h */,
+				36F53C982375A654004CFEE5 /* LCXSuperTableViewCell.m */,
+				36F53C9C2375A731004CFEE5 /* UITableView+RegisterCells.h */,
+				36F53C9D2375A731004CFEE5 /* UITableView+RegisterCells.m */,
+				36CE963423781ABF0089E264 /* LCXTableViewDataSourceAndDelegate */,
+			);
+			path = LCXTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,9 +400,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36F5155A2379906800C3795E /* SecondCustomTableViewCell.m in Sources */,
+				36F53C9E2375A731004CFEE5 /* UITableView+RegisterCells.m in Sources */,
+				36F53C9A2375A654004CFEE5 /* LCXSuperTableViewCell.m in Sources */,
+				36F53C92237513F9004CFEE5 /* LCXUIInit+Button.m in Sources */,
+				36F53C8C23750871004CFEE5 /* LCXUIInit+View.m in Sources */,
+				36F515612379978100C3795E /* LCXUIInit+image.m in Sources */,
+				36C341F22371DC7B00E3D2AB /* ViewViewController.m in Sources */,
+				36F53CAD2375BFB3004CFEE5 /* LCXSuperTableViewController.m in Sources */,
+				36F53C9523751C2B004CFEE5 /* LCXUIInit+TableView.m in Sources */,
 				362456182371CFF90001C235 /* ViewController.m in Sources */,
+				36CE964623786A8D0089E264 /* CustomTableViewCell.m in Sources */,
+				36CE9643237869650089E264 /* LCXTableViewController.m in Sources */,
+				36F53C89237505FA004CFEE5 /* LCXUIInit+ImageView.m in Sources */,
+				36F53C8F237508F5004CFEE5 /* LCXUIInit+Label.m in Sources */,
+				36CE963A23781AF10089E264 /* LCXSuperListViewModel.m in Sources */,
+				36C341EF2371DC1E00E3D2AB /* TableViewController.m in Sources */,
 				362456232371CFFA0001C235 /* main.m in Sources */,
 				362456152371CFF90001C235 /* AppDelegate.m in Sources */,
+				36CE963723781AE70089E264 /* LCXTableViewDelegates.m in Sources */,
+				36C341E92371DBF500E3D2AB /* BaseViewController.m in Sources */,
 				36C341D72371D08900E3D2AB /* LCXUIInit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,6 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LCXUIInit (ImageView)
 
+UIImageView *AddImageView(UIView *superView, CGRect frame, UIImage *_Nullable image);
+
+UIImageView *AddImageViewWithTap(UIView *superView, CGRect frame, UIImage *_Nullable image,id target,SEL sel);
+
 @end
 
 NS_ASSUME_NONNULL_END

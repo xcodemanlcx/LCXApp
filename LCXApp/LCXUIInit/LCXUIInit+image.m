@@ -10,4 +10,8 @@
 
 @implementation LCXUIInit (image)
 
+UIImage *imageNamed(NSString *imageName){
+    return [UIImage imageNamed:imageName];
+}
+
 @end

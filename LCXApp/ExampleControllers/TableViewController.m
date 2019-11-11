@@ -24,7 +24,7 @@ static NSString * const kLCXUIInitCellReuseIdentifier = @"kLCXUIInitCellReuseIde
     if (self) {
         
         self.title = @"Examples";
-        self.exampleControllerNames = @[@"ViewViewController"];
+        self.exampleControllerNames = @[@"ViewViewController",@"LCXTableViewController"];
 
     }
     return self;

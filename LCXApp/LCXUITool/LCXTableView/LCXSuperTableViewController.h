@@ -6,11 +6,17 @@
 //  Copyright © 2019 lcx. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
+#import "LCXTableViewDelegates.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LCXSuperTableViewController : LCXSuperViewController
+@interface LCXSuperTableViewController : BaseViewController
+
+@property (nonatomic, strong) UITableView *lcxTableView;
+@property (nonatomic, strong) LCXTableViewDelegates *tableViewDelegates;
+
+- (UITableView *)tableViewWithSuperView:(UIView *)superView frame:(CGRect)frame cellClasses:(NSArray <Class>*)classes delegatesCellActionBlock:(DelegatesCellActionBlock _Nullable)delegatesCellActionBlock delegatesDidSelectBlock:(DelegatesDidSelectBlock _Nullable)delegatesDidSelectBlock;
 
 @end
 

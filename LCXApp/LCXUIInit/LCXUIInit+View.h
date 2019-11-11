@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LCXUIInit (View)
 
+UIView *AddView(UIView *superView, CGRect frame, UIColor *backgroundColor);
+
 @end
 
 NS_ASSUME_NONNULL_END

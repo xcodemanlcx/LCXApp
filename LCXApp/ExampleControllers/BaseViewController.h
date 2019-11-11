@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-#define EXAMPLE_FRAME CGRectMake(50, 50, 100, 200)
+#define EXAMPLE_FRAME CGRectMake(10, 20, 100, 50)
 
 @interface BaseViewController : UIViewController
 
